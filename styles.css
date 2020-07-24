@@ -1,0 +1,85 @@
+.headline {
+    display: inline-block;
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 77px;
+    font-family: "Inconsolata";
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.content {
+    /* background-color: aqua; */
+    margin: 100px 77px 0 77px;
+}
+.content::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.img {
+    background-image: url("./Scarecrow.png");
+    width: 540px;
+    height: 447px;
+    background-size: cover;
+    /* margin-left: 77px; */
+    float: left;
+}
+
+.msg_area {
+    margin-right: 0px;
+    font-family: "Inconsolata";
+    float: left;
+    margin-left: 200px;
+}
+
+.msg_title {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    width: 586px;
+    height: 190px;
+    word-wrap: break-word;
+}
+
+.msg_body {
+    margin-top: 36px;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    width: 381px;
+    height: 108px;
+}
+
+.btn {
+    margin-top: 44px;
+    border: none;
+    display: inline-block;
+    /* width: 150px;
+    height: 20px; */
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    background-color: black;
+    color: #eeeeee;
+    cursor: pointer;
+}
+
+.devinfo {
+    display: block;
+    margin: 100px auto 10px auto;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
