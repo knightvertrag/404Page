@@ -11,7 +11,7 @@
 
 .content {
     /* background-color: aqua; */
-    margin: 100px 77px 0 77px;
+    margin: 100px 10px 0 10px;
 }
 .content::after {
     content: "";
@@ -32,7 +32,7 @@
     margin-right: 0px;
     font-family: "Inconsolata";
     float: left;
-    margin-left: 200px;
+    margin-left: 5%;
 }
 
 .msg_title {
